@@ -1,0 +1,89 @@
+parent,name,one_time_cost,cost_per_hour,time_per_m2,cost_per_m2,area_allocation,work-cost-type (0 = one-time / 1=hourly)
+,Asbest check,250,,,,no caculation on one time cost,0
+,Demolition work,,40,1,40,Floor+Wall+Roof,1
+,Floorplumbing,,0,0,0,Floor,1
+,Moisturecheck,150,,,,no caculation on one time cost,0
+,Wall remodelling,,0,0,0,Wall,1
+,carbage recycling and transportation ,0,,,,no caculation on one time cost,0
+,Plating ,,50,0.2,10,Floor+Wall,1
+,Floor heating,,55,0.2,11,Floor,0
+,Water proof check,0,,,,no caculation on one time cost,0
+,Water proof,,45,0.2,9,Floor,1
+,Paksuusmittaus,150,,,,no caculation on one time cost,0
+,Tile coverring,0,,,,no caculation on one time cost,0
+,Tile assembling,,45,0.4,18,Floor+Wall,1
+,Tile coverring,,0,0,0,Floor+Wall,1
+,Silicon assemble,0,,,,no caculation on one time cost,0
+,Microsement,0,,,,no caculation on one time cost,0
+,Roof renewal,0,,,,no caculation on one time cost,0
+,Listing,0,,,,no caculation on one time cost,0
+,Kynnys assembly,0,,,,no caculation on one time cost,0
+,Lihntning renwal,0,,,,no caculation on one time cost,0
+,Shower assembly,,55,0.3,16.5,Wall,0
+,Bath assembly,0,,,,no caculation on one time cost,0
+,Cabinet,0,,,,no caculation on one time cost,0
+,Other  cabinets,0,,,,no caculation on one time cost,0
+,Bath tab assembly,0,,,,no caculation on one time cost,0
+,Toilet assembly,100,,,,no caculation on one time cost,0
+,Sauna door change,150,,,,no caculation on one time cost,0
+,Shower wall,0,,,,no caculation on one time cost,0
+,Door In change,150,,,,no caculation on one time cost,0
+,Water pipe renewal,0,,,,no caculation on one time cost,0
+,Electricty,,55,0.3,16.5,no caculation on one time cost,0
+,Renovation end Cleaning ,,55,0.3,16.5,no caculation on one time cost,0
+Demolition work,Cabinet ,0,,,,no caculation on one time cost,0
+Demolition work,Tiles,0,,,,no caculation on one time cost,0
+Demolition work,Roof,0,,,,no caculation on one time cost,0
+Demolition work,Hvac,0,,,,no caculation on one time cost,0
+Demolition work,Door,0,,,,no caculation on one time cost,0
+Wall remodelling,Side wall demolition,0,,,,no caculation on one time cost,0
+Wall remodelling,Side wall move,0,,,,no caculation on one time cost,0
+Wall remodelling,Wall hardening,0,,,,no caculation on one time cost,0
+Wall remodelling,Wall plating,0,,,,no caculation on one time cost,0
+Plating ,Wall,0,,,,no caculation on one time cost,0
+Plating ,Floor,0,,,,no caculation on one time cost,0
+Floor heating,Electircity,0,,,,no caculation on one time cost,0
+Floor heating,Water,0,,,,no caculation on one time cost,0
+Tile assembling,Floor,1,,,,no caculation on one time cost,1
+Tile assembling,Wall,2,,,,no caculation on one time cost,2
+Tile assembling,Tile corner list,3,,,,no caculation on one time cost,3
+Roof renewal,Panels,4,,,,no caculation on one time cost,4
+Roof renewal,Levy,5,,,,no caculation on one time cost,5
+Listing,Window,6,,,,no caculation on one time cost,6
+Listing,Foor,7,,,,no caculation on one time cost,7
+Lihntning renwal,Roof one light,8,,,,no caculation on one time cost,8
+Lihntning renwal,Led panels,9,,,,no caculation on one time cost,9
+Shower assembly,Raining plate set,10,,,,no caculation on one time cost,10
+Shower assembly,Normal shower,11,,,,no caculation on one time cost,11
+Bath assembly,Jaquzzi,12,,,,no caculation on one time cost,12
+Bath assembly,Normal bath,13,,,,no caculation on one time cost,13
+Cabinet,Width 40cm,14,,,,no caculation on one time cost,14
+Cabinet,50cm,15,,,,no caculation on one time cost,15
+Cabinet,60cm,16,,,,no caculation on one time cost,16
+Cabinet,70cm,17,,,,no caculation on one time cost,17
+Cabinet,80cm,18,,,,no caculation on one time cost,18
+Other  cabinets,Sliding doors,19,,,,no caculation on one time cost,19
+Other  cabinets,Window cabinet wall,20,,,,no caculation on one time cost,20
+Other  cabinets,Mirror,21,,,,no caculation on one time cost,21
+Other  cabinets,High cabinet into wall,22,,,,no caculation on one time cost,22
+Other  cabinets,Cleaning cabinet,23,,,,no caculation on one time cost,23
+Other  cabinets,Other,24,,,,no caculation on one time cost,24
+Bath tab assembly,With bidee,25,,,,no caculation on one time cost,25
+Bath tab assembly,Without bidee,26,,,,no caculation on one time cost,26
+Toilet assembly,S lock,27,,,,no caculation on one time cost,27
+Toilet assembly,P lock,28,,,,no caculation on one time cost,28
+Toilet assembly,Wall toilet,29,,,,no caculation on one time cost,29
+Sauna door change,Glass door,30,,,,no caculation on one time cost,30
+Sauna door change,Part glass door,31,,,,no caculation on one time cost,31
+Sauna door change,Other,32,,,,no caculation on one time cost,32
+Shower wall,Sloding,33,,,,no caculation on one time cost,33
+Shower wall,Tighten,34,,,,no caculation on one time cost,34
+Door In change,Normal door,35,,,,no caculation on one time cost,35
+Door In change,Glass door,36,,,,no caculation on one time cost,36
+Water pipe renewal,Chrome pipes,37,,,,no caculation on one time cost,37
+Water pipe renewal,Cleaning machine tab,38,,,,no caculation on one time cost,38
+Water pipe renewal,Plumbing,39,,,,no caculation on one time cost,39
+Electricty,Wall plugs,40,,,,no caculation on one time cost,40
+Electricty,New electricty cables,41,,,,no caculation on one time cost,41
+Electricty,Thermos,42,,,,no caculation on one time cost,42
+Electricty,Mirror light,43,,,,no caculation on one time cost,43

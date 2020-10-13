@@ -1,0 +1,753 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- font icons  CSS -->
+    <link rel="stylesheet" href="css/icomoon.css">
+    <!-- owl carousel -->
+    <!-- custom  CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- jquery ui  CSS -->
+    <link media="all" type="text/css" rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <title>Flipkoti</title>
+</head>
+<body>
+<header class="header">
+    <div class="logo">
+        <img src="./images/logo.png">
+    </div>
+    <nav class="navbar navbar-expand-md">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-down"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="business-dashboard.html">My Business</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Marketplace <span class="badge badge-danger">2</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="right-buttons">
+        <div class="dropdown">
+            <a class="dropdown-toggle no-arrow" type="button" id="alert-messages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="icon-bell"></i>
+                <span class="badge badge-danger"></span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="alert-messages">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="avatar">
+                    <img class="rounded-circle" src="./images/avatar.jpg" alt="">
+                </div>
+                <span>Miikka K.</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">My Account</a>
+                <a class="dropdown-item" href="#">Logout</a>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="sidebar-toggle"></div>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Mybusiness</a></li>
+        <li class="breadcrumb-item"><a href="#">Propsal</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Create</li>
+    </ol>
+</nav>
+<div class="main-content">
+    <div class="sidebar">
+        <div class="wraper">
+            <div class="scroll"></div>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href=""><i class="icon-dashboard"></i>Prodesk</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="icon-fillter"></i>Customers</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="icon-edit-file"></i>Proposal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="icon-materials"></i>Agreement</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="icon-work"></i>Project</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="icon-jobs"></i>Invoice</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="icon-chat"></i>Messaging</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="icon-work"></i>Resources</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="page-content">
+        <div class="container-fluid">
+            <div class="d-md-flex justify-content-between" style="max-width:1120px">
+                <h3 class="head3">Create proposal</h3>
+                <div class="mt-md-n3 mt-sm-4 mb-sm-4 mb-md-0">
+                    <button class="btn btn-sm btn-gray mr-3 mb-3 mb-sm-0" data-toggle="modal" data-target="#preview-info">Preview Proposal</button>
+                    <button class="btn btn-sm btn-gray mr-3 mb-3 mb-sm-0">Save as a draft</button>
+                    <button class="btn btn-sm btn-primary mb-3 mb-sm-0">Submit & Send</button>
+                </div>
+            </div>
+            <div class="card" style="max-width:1120px">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-6">
+                            <div class="form-group">
+                                <div class="file-select inline">
+                                    <input type="file" id="attachment1">
+                                    <div class="selected-img" style="display: none">
+                                        <img src="images/logo.png">
+                                        <span>remove</span>
+                                    </div>
+                                    <label for="attachment1">
+                                        <img src="images/file-icon.png">
+                                        <span class="status">Upload your company logo</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label><a data-toggle="collapse" href="#business-info" role="button" aria-expanded="false" aria-controls="business-info">[+]</a> Your business information <a href="#" data-toggle="modal" data-target="#edit-info">Edit</a></label>
+                                <div class="collapse" id="business-info">
+                                    <div class="form-detail">
+                                        <p>NorthFlip</p>
+                                        <p>Rajesh Sahotra</p>
+                                        <p></p>
+                                        <p>business@northflip.com</p>
+                                        <p>www.northflip.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="customer-info">Customer Information</label>
+                                <div class="input-group">
+                                    <input id="customer-info" class="form-control" type="text" placeholder="Email id or name of client">
+                                    <div class="input-group-append">
+                                        <div class="input-group-text"><i class="icon-user" style="color: #538CD1; font-size: 20px;"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="mails">Mail to multiple person</label>
+                                <input id="mails" class="form-control" type="text" placeholder="Email id">
+                                <small class="form-text text-muted">
+                                    eg sub contractors, material supplier, team etc
+                                </small>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-6">
+                            <!--<div class="form-group">
+                                <label>Attachment</label>
+                                <div class="file-select attachment">
+                                    <input type="file" id="file">
+                                    <label for="file">
+                                        <i class="icon-attachment"></i>
+                                        <span class="filename" data-text="Doc, pdf, jpg, png">Doc, pdf, jpg, png</span>
+                                        <span class="clear">+</span>
+                                    </label>
+                                </div>
+                            </div>-->
+                            <div class="form-group">
+                                <label for="request-id">Request ID</label>
+                                <input id="request-id" class="form-control" type="text" value="#112132">
+                            </div>
+                            <div class="form-group">
+                                <label for="date">Date</label>
+                                <input id="date" class="form-control" type="text" value="20-04-20">
+                            </div>
+                            <div class="form-group">
+                                <label for="due-date">Due date</label>
+                                <input id="due-date" class="form-control" type="text" value="30-04-20">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-5"></div>
+                    <div class="row">
+                        <div class="col-lg-5 col-md-6">
+                            <h2 class="head2 mb-5">Proposal Summary</h2>
+                            <div class="form-group">
+                                <label>Total cost for bid</label>
+                                <div class="form-detail">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p>Work total</p>
+                                        </div>
+                                        <div class="col">
+                                            <p>xxxx</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <p>Material total</p>
+                                        </div>
+                                        <div class="col">
+                                            <p>x2x1</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <p>Total cost</p>
+                                        </div>
+                                        <div class="col">
+                                            <p>01xx</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="m-payment">Materials Payment/ Invoicing terms</label>
+                                <select id="m-payment" class="form-control">
+                                    <option>Payment aftre total delivery</option>
+                                    <option>payment after project done</option>
+                                    <option>As per inovice</option>
+                                    <option value="other">Custom message</option>
+                                </select>
+                            </div>
+                            <div class="form-group" id="custom-message" style="display: none">
+                                <textarea class="form-control" placeholder="Other message"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="work-payment">Work Payment/Invoicing terms</label>
+                                <select id="work-payment" class="form-control">
+                                    <option>Payment aftre work</option>
+                                    <option>Payment aftre work</option>
+                                    <option>Payment aftre work</option>
+                                    <option>Pay hourly</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-6">
+                            <h2 class="head2 mb-5">Project plan</h2>
+                            <div class="form-group"> <!-- alert-danger-->
+                                <div class="plan-list">
+                                    <div class="row gutters-24">
+                                        <div class="col-lg-6">
+                                            <button class="btn btn-light add-plan" data-toggle="modal" data-target="#add-plan">Add / Calculate Work Cost</button>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <button class="btn btn-light add-plan" data-toggle="modal" data-target="#add-plan">Add / Calculate Material Cost</button>
+                                        </div>
+                                    </div>
+                                    <h3>Work<span class="edit-plan" data-toggle="modal" data-target="#add-plan"><i class="icon-edit"></i></span></h3>
+                                    <ul>
+                                        <li>Asbestikartoitus</li>
+                                        <li>Purkutyöt/demolition</li>
+                                        <li>Kosteusmittaus</li>
+                                        <li>Jätteen kierrätys ja kuljetus</li>
+                                        <li>Tasoitus/preperation work</li>
+                                        <li>Lattialämmitysasennus/floor heating assembling</li>
+                                        <li>Vedeneristys asennus/Waterproofing</li>
+                                        <li>Paksuusmittaus</li>
+                                    </ul>
+                                    <h3>Material<span class="edit-plan" data-toggle="modal" data-target="#add-plan"><i class="icon-edit"></i></span></h3>
+                                    <ul>
+                                        <li>Asbestikartoitus</li>
+                                        <li>Purkutyöt/demolition</li>
+                                        <li>Kosteusmittaus</li>
+                                        <li>Jätteen kierrätys ja kuljetus</li>
+                                        <li>Tasoitus/preperation work</li>
+                                        <li>Lattialämmitysasennus/floor heating assembling</li>
+                                        <li>Vedeneristys asennus/Waterproofing</li>
+                                        <li>Paksuusmittaus</li>
+                                    </ul>
+                                  <span class="total">&nbsp;</span><!--   Total:   2144-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-5"></div>
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <h2 class="head2">Proposal details</h2>
+                        </div>
+                        <div class="col-xl-4 col-lg-5 col-md-6">
+                            <div class="form-group">
+                                <label for="work">Guarantees for work</label>
+                                <textarea id="work" class="form-control" placeholder="User can add open text here"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1">
+                            <div class="form-group">
+                                <label for="insurance">Insurance</label>
+                                <textarea id="insurance" class="form-control" placeholder="User can add open text here"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-5 col-md-6">
+                            <div class="row">
+                                <div class="form-group col">
+                                    <label for="sdate">Start date</label>
+                                    <input id="sdate" class="form-control" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <label>&nbsp;</label>
+                                    <p class="saprator">to</p>
+                                </div>
+                                <div class="form-group col">
+                                    <label for="edate">End date</label>
+                                    <input id="edate" class="form-control" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-9 col-lg-10">
+                            <div class="form-group">
+                                <label for="issues">Attachments</label>
+                                <div class="file-select inline">
+                                    <input type="file" id="attachments">
+                                    <label for="attachments">
+                                        <img src="images/file-icon.png">
+                                        <span class="status">Upload attachments</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-5"></div>
+                    <div class="row">
+                        <div class="col-12">
+                            <button class="btn btn-gray mb-md-0 mb-3 mr-4" data-toggle="modal" data-target="#preview-info">Preview Proposal</button>
+                            <button class="btn btn-gray mb-md-0 mb-3 mr-4">Save as a draft</button>
+                            <button class="btn btn-primary mb-md-0 mb-4">Submit & Send</button>
+                        </div>
+                    </div>
+                    <br><br><br><br><br><br>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="add-plan" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Project Planning</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md">
+                                <div class="form-group">
+                                    <label>Select area</label>
+                                    <select class="form-control">
+                                        <option>Bathroom</option>
+                                        <option>Bathroom</option>
+                                        <option>Bathroom</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-md">
+                                <div class="form-group">
+                                    <label>Template name</label>
+                                    <div class="flex-group">
+                                        <select class="form-control">
+                                            <option>Template 1</option>
+                                            <option>Template 2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Add work phase</label>
+                                    <div class="flex-group">
+                                        <select class="form-control">
+                                            <option>Asbestikartoitus</option>
+                                            <option>Asbestikartoitus</option>
+                                            <option>Asbestikartoitus</option>
+                                        </select>
+                                        <button class="btn btn-primary">Add</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-responsive-sm scroller mt-3">
+                            <table class="table table-bordered table-sm">
+                                <thead>
+                                <tr class="text-right">
+                                    <th class="text-left">
+                                        <span class="remove-row">&times;</span>Items
+                                    </th>
+                                    <th>
+                                        Duration (hrs)
+                                    </th>
+                                    <th>
+                                        Cost/hr
+                                    </th>
+                                    <th>
+                                        Material cost
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr class="text-right">
+                                    <td class="text-left"><span class="remove-row">&times;</span>Asbestikartoitus</td>
+                                    <td>01</td>
+                                    <td>15</td>
+                                    <td>200</td>
+                                </tr>
+                                <tr class="text-right">
+                                    <td class="text-left"><span class="remove-row">&times;</span>Purkutyöt/demolition</td>
+                                    <td>06</td>
+                                    <td>15</td>
+                                    <td>200</td>
+                                </tr>
+                                <tr class="text-right">
+                                    <td class="text-left"><span class="remove-row">&times;</span>Kosteusmittaus</td>
+                                    <td>04</td>
+                                    <td>15</td>
+                                    <td>200</td>
+                                </tr>
+                                <tr class="text-right">
+                                    <td class="text-left"><span class="remove-row">&times;</span>Jätteen kierrätys ja kuljetus</td>
+                                    <td>04</td>
+                                    <td>15</td>
+                                    <td>200</td>
+                                </tr>
+                                <tr class="text-right">
+                                    <td class="text-left"><span class="remove-row">&times;</span>Tasoitus/preperation work</td>
+                                    <td>05</td>
+                                    <td>15</td>
+                                    <td>200</td>
+                                </tr>
+                                <tr class="text-right">
+                                    <td class="text-left"><span class="remove-row">&times;</span>Lattialämmitysasennus/floor heating assembling</td>
+                                    <td>21</td>
+                                    <td>15</td>
+                                    <td>200</td>
+                                </tr>
+                                <tr class="text-right">
+                                    <td class="text-left"><span class="remove-row">&times;</span>Vedeneristys asennus/Waterproofing</td>
+                                    <td>12</td>
+                                    <td>15</td>
+                                    <td>200</td>
+                                </tr>
+                                <tr class="text-right">
+                                    <td class="text-left"><span class="remove-row">&times;</span>Paksuusmittaus</td>
+                                    <td>01</td>
+                                    <td>15</td>
+                                    <td>200</td>
+                                </tr>
+                                <tr class="text-right">
+                                    <td>Estimated execution time</td>
+                                    <td>54</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr class="text-right">
+                                    <td></td>
+                                    <td>Sub Total</td>
+                                    <td>120</td>
+                                    <td>1600</td>
+                                </tr>
+                                <tr class="text-right">
+                                    <td>Tax%</td>
+                                    <td>24</td>
+                                    <td colspan="2">384</td>
+                                </tr>
+                                <tr class="text-right">
+                                    <td>Profit %</td>
+                                    <td>10</td>
+                                    <td></td>
+                                    <td>160</td>
+                                </tr>
+                                <tr class="text-right">
+                                    <td>Total</td>
+                                    <td colspan="3">2144</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <button type="button" class="btn btn-primary mt-3">Add to proposal</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="edit-info" tabindex="-1" role="dialog" aria-labelledby="editInfoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="editInfoModalLabel">Edit Business Information</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="f-name">First Name</label>
+                                        <input id="f-name" class="form-control" type="text" placeholder="">
+                                        <!--<small class="form-text text-muted">
+                                            eg sub contractors, material supplier, team etc
+                                        </small>-->
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="l-name">Last Name</label>
+                                        <input id="l-name" class="form-control" type="text" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="address">Address</label>
+                                        <input id="address" class="form-control" type="text" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="zip">Zip</label>
+                                        <input id="zip" class="form-control" type="text" placeholder="Enter zip code">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="sub-c">Sub Contractors</label>
+                                        <input id="sub-c" class="form-control" type="text" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="phone">Phone</label>
+                                        <input id="phone" class="form-control" type="text" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="ms">Material Supplier</label>
+                                        <input id="ms" class="form-control" type="text" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input id="email" class="form-control" type="email" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="c-pass">Current Pasword</label>
+                                        <input id="c-pass" class="form-control" type="password" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="n-pass">New Pasword</label>
+                                        <input id="n-pass" class="form-control" type="password" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="d-lang">Default Language</label>
+                                        <select id="d-lang" class="form-control">
+                                            <option>Finnish</option>
+                                            <option>English</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="preview-info" tabindex="-1" role="dialog" aria-labelledby="previewModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered preview-modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="pdf-section">
+                            <div class="pdf-header">
+                                <div class="logo">
+                                    <img src="images/pdf-logo.png">
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <p>
+                                                    <b>Salaojalinja</b><br>
+                                                    <b>Miikka k</b><br>
+                                                    <b>info@salaojalinja.fi</b><br>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 col-lg-4">
+                                                <address>
+                                                    Salaojalinja Oy Kaskelantie<br>
+                                                    5 A 49, 01200 Vantaa<br>
+                                                    Phone no: 044 977 3122<br>
+                                                    Business ID: 12454721<br>
+                                                    Tax No: SM1212547<br>
+                                                    Other info
+                                                </address>
+                                            </div>
+                                            <div class="col-md-6 col-lg-4">
+                                                <address>
+                                                    <p class="mb-2">Proposal To</p>
+                                                    Salarem<br>
+                                                    asiakaspalvelu@salarem.fi<br>
+                                                </address>
+                                            </div>
+                                            <div class="col-md-12 col-lg-4"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="float-md-right float-sm-none">
+                                            <h2>Proposal</h2>
+                                            <address>
+                                                Request ID #FK<br>
+                                                Proposal Date: 20-07-2020<br>
+                                                Due date: 30-8-2020<br>
+                                            </address>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pdf-content">
+                                <h2>Proposal Summary</h2>
+                                <div class="row mb-5">
+                                    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                        <h4>Total Cost</h4>
+                                        <table class="table table-striped">
+                                            <tbody>
+                                            <tr>
+                                                <td>Work Cost</td>
+                                                <td class="text-right">€ 24500,61</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Material Cost</td>
+                                                <td class="text-right">€ 12500,00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Total Cost</td>
+                                                <td class="text-right">€ 37,000,61</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                                        <h4>Materials payment terms</h4>
+                                        <div class="border p-3" style="height: 110px;">
+                                            <p>Payment after project done.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <h4>Work payment terms</h4>
+                                        <div class="border p-3" style="height: 110px;">
+                                            <p>Fixed payment / Hourly</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3>Project Plan</h3>
+                                <div class="row mb-5">
+                                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                                        <h5>Work</h5>
+                                        <table class="table table-striped small">
+                                            <tbody>
+                                            <tr><td>Asbestikartoitus</td></tr>
+                                            <tr><td>Kaappien purku</td></tr>
+                                            <tr><td>Välitilan purku</td></tr>
+                                            <tr><td>Lattian purku</td></tr>
+                                            <tr><td>Sähkö purku</td></tr>
+                                            <tr><td>Lvis muutokset</td></tr>
+                                            <tr><td>Katon purku</td></tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <h5>Material</h5>
+                                        <table class="table table-striped small">
+                                            <tbody>
+                                            <tr><td>Kaapit</td></tr>
+                                            <tr><td>Ovet</td></tr>
+                                            <tr><td>Työtasot</td></tr>
+                                            <tr><td>Välitila</td></tr>
+                                            <tr><td>Mekanismit</td></tr>
+                                            <tr><td>Vedin</td></tr>
+                                            <tr><td>Allas</td></tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12"></div>
+                                </div>
+                                <h2>Proposal details</h2>
+                                <div class="row mb-5">
+                                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                                        <h4>Guarantee for work</h4>
+                                        <div class="border p-3" style="height: 110px;">
+                                            <p>open text or paragraph</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <h4>Insurance</h4>
+                                        <div class="border p-3" style="height: 110px;">
+                                            <p>open text or paragraph</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12"></div>
+                                </div>
+                                <br>
+                                <p class="h3 mb-3"><b>Project start date:</b> 24-08-2020</p>
+                                <p class="h3"><b>Project start date:</b> 24-08-2020</p>
+                                <br><br><br><br><br><br>
+                            </div>
+                            <div class="pdf-footer">
+                                <p>Powered by FlipkotiPro</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery.min.js"></script>
+
+<!-- custom js file -->
+<script src="js/custom.js"></script>
+
+<!-- bootstrap js -->
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

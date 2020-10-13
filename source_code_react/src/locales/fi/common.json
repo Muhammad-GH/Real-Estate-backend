@@ -1,0 +1,334 @@
+{
+  "translation": {
+    "success": {
+      "mat_ins": "Materiaali luotu",
+      "work_ins": "Työ luotu",
+      "work_bid": "Tarjous työstä tehty",
+      "mat_bid": "Tarjous materiaalista tehty",
+      "agreement": "Sopimus luotu",
+      "cus_ins": "Uusi asiakas luotu",
+      "cus_upd": "Asiakas päivitetty",
+      "res_ins": "Uusi resurssi luotu",
+      "res_upd": "Resurssi päivitetty",
+      "inv_ins": "Uusi lasku luotu",
+      "prop_ins": "Tarjous luotu",
+      "pass_mat": "Salasanat eivät täsmää",
+      "unique": "Uniikki sähköposti vaaditaan",
+      "all_fields_are_required": "Kaikki kentät tulee täyttää",
+      "authentication_failed": "Todentaminen epäonnistui",
+      "email_not_found": "Sähköpostia ei löydy"
+    },
+    "login": {
+      "welcome": "Tervetuloa käyttämään Flipkoti Pro:ta!",
+      "tag": "Alusta asumisen alan ammattilaisille",
+      "login": "Kirjaudu",
+      "for_msg": "Unohtuiko salasana",
+      "reg_msg": "Eiko sinulla ole vielä tiliä?",
+      "back_msg": "Takaisin kirjautumissivulle",
+      "get_started": "Aloita tästä",
+      "are_you": "Missä roolissa toimit?"
+    },
+    "index": {
+      "title": "Markkinapaikka",
+      "title2": "Markkinapaikan työpöytä",
+      "materials": "Materiaalit",
+      "work": "Työt",
+      "request": "Tarjouspyyntöni",
+      "offers": "Tarjoukseni",
+      "jobs": "Tallennetut työt",
+      "contract": "Sopimukset",
+      "my_bids": {
+        "make_offer": "Tee tarjous",
+        "make_request": "Tee tarjouspyyntö",
+        "see_listings": "Katso listaus"
+      },
+      "my_request": {
+        "accepted": "Hyväksytty",
+        "declined": "Hylätty",
+        "expired": "Erääntynyt"
+      }
+    },
+    "feeds": {
+      "search": {
+        "title": "Haku",
+        "product": "Tuote",
+        "product_category": "Tuotekategoria",
+        "state": "Maakunta",
+        "city": "Valitse kaupunki",
+        "offer": "Tarjous",
+        "request": "Tarjouspyyntö",
+        "material": "Materiaali",
+        "work": "Työ"
+      },
+      "saved_job": "Tallennetut ilmoitukset"
+    },
+    "c_material_list": {
+      "request": {
+        "type_list": "Listauksen tyyppi",
+        "title": "Luo materiaalilistaus",
+        "sub_title": "Kaikki kentät pakollisia*",
+        "input_title": "Otsikko",
+        "category": "Kategoria",
+        "vol_need": "Haluttu määrä",
+        "unit": "Yksikkö",
+        "city": "Kaupunki",
+        "pincode": "Pinkoodi",
+        "post_expires_in": "Ilmoitus erääntyy",
+        "description": "Kuvaus",
+        "main": "Main",
+        "attachment": "Liite",
+        "attachment_text": "Max. 2 mb pdf, doc,",
+        "product_images": "Tuotekuvat",
+        "product_images_text": "Useat kuvat sallittu"
+      },
+      "offer": {
+        "cost_unit": "Hinta/yksikkö",
+        "quantity": "Määrä",
+        "delivery_type": "Toimitustapa",
+        "cost": "Kustannus",
+        "road": "Maantierahti",
+        "flight": "Lentorahti",
+        "ship": "Laivarahti",
+        "warranty": "Takuu"
+      },
+      "listing": {
+        "material_listings": "Materiaalilistaus",
+        "my_listings": "Minun listaukset",
+        "create": "Luo",
+        "ref": "REF",
+        "type": "Tyyppi",
+        "start_date": "Alkamispäivämäärä",
+        "end_date": "Päättymispäivämäärä",
+        "current_bid": "Nykyinen tarjous",
+        "view": "Katso"
+      }
+    },
+    "c_work_list": {
+      "title": "Luo työilmoitus",
+      "budget": "Budjetti",
+      "rate": "Hintataso",
+      "work_start": "Työn aloitus",
+      "work_end": "Työn lopetus",
+      "availablity": "Saatavuus",
+      "work_listings": "Työ listaus"
+    },
+    "my_contracts": {
+      "search": {
+        "type1": "Tyyppi 1",
+        "type2": "Tyyppi 2",
+        "sort_by": "Järjestä",
+        "closed_contract": "Sisällytä allekirjoitetut sopimukset"
+      },
+      "title": "Minun sopimukset",
+      "submit_proposal": "Lähetä tarjous",
+      "request_proposal": "Pyydä tarjous",
+      "cancel": "Peruuta"
+    },
+    "header": {
+      "my_bussiness": "Työkalupakki",
+      "marketplace": "Markkinapaikka",
+      "view_all": "Katso kaikki"
+    },
+    "list_details": {
+      "volume_need": "Haluttu määrä",
+      "budget": "Budjetti",
+      "location": "Sijainti",
+      "warranty": "Takuu",
+      "delivery": "Toimitus",
+      "delivery_charges": "Toimituskustannukset",
+      "work": "Työ",
+      "rate": "Rate",
+      "included": "Sisältää",
+      "expires_in": "Sulkeutumisaika",
+      "your_quote": "Tarjouksesi",
+      "quantity": "Määrä",
+      "shipping_from": "Toimitetaan paikasta",
+      "delivery_type": "Toimitustapa",
+      "message": "Viesti",
+      "image": "Kuva",
+      "i_agree_all": "Hyväksyn kaikki",
+      "terms_of_service": "palvelun käyttöehdot"
+    },
+    "sidebar": {
+      "pro_desk": "Prodesk",
+      "feeds": "Feeds",
+      "create_listing": "Create listing",
+      "see_listing": "Katso listaukset"
+  },
+    "account": {
+      "title": "Käyttäjätilin tiedot",
+      "first_name": "Etunimi",
+      "last_name": "Sukunimi",
+      "address": "Osoite",
+      "zip": "Postinumer",
+      "sub_contractors": "Aliurakoitsijat",
+      "phone": "Puhelinnumero",
+      "material_supplier": "Materiaalitoimittaja",
+      "email": "Sähköposti",
+      "company": "Yritys",
+      "type": "Tyyppi",
+      "status": "Tila",
+      "old_password": "Nykyinen salasana",
+      "password": "Uusi salasana",
+      "language": "Oletuskieli",
+      "my_account": "Käyttäjätili",
+      "logout": "Kirjaudu ulos"
+    },
+    "b_sidebar": {
+      "cus": {
+        "customers": "Asiakkaat",
+        "create_customers": "Luo uusi asiakas"
+      },
+      "proposal": {
+        "proposal": "Tarjoukset",
+        "template": "Valmispohja",
+        "listing": "Kaikki tarjoukset"
+      },
+      "agreement": {
+        "agreement": "Sopimukset"
+      },
+      "project": {
+        "project": "Projektit"
+      },
+      "invoice": {
+        "invoice": "Laskut",
+        "create_invoice": "Luo lasku",
+        "invoice_listing": "Kaikki laskut"
+      },
+      "messaging": {
+        "messaging": "Viestintä"
+      },
+      "resources": {
+        "resources": "Resurssit",
+        "create_resources": "Luo resurssi",
+        "resource_listing": "Kaikki resurssit"
+      }
+    },
+    "mycustomer": {
+      "heading": "Työkalupakki",
+      "heading_2": "Asiakkaat",
+      "resource_company": "Resurssi/yritys",
+      "resource_type": "Resurssin tyyppi"
+    },
+    "project_planning": {
+      "heading": "Tarjouslaskuri",
+      "area": "Valitse työalue",
+      "phase": "Lisää työvaihe",
+      "new_task": "Uudet tehtävät",
+      "template": "Tarjouspohja",
+      "upd_curr": "Päivitä nykyinen tarjouspohja",
+      "save_curr": "Tallenna nykyinen tarjouspohja",
+      "save_temp": "Avaa tallennettu tarjouspohja",
+      "items": "Items",
+      "duration": "Työn kesto(h)",
+      "cost_hr": "Hinta/h",
+      "total_cost": "Hinta yht.",
+      "est_time": "Arvioitu toteutusaika",
+      "sub_total": "Hinta yhteensä",
+      "tax": "ALV",
+      "profit": "Kate",
+      "total": "Yhteensä"
+    },
+    "myproposal": {
+      "scratch": "Luo uusi tarjous",
+      "prop_request": "Luo tarjous tarjouspyynnöstä",
+      "prop_upd": "Päivitä tarjousta",
+      "cre_prop": "Luo tarjous",
+      "buss_info": "Yrityksesi tiedot",
+      "cus_info": "Asiakkaan tiedot",
+      "mail_multi": "Lähetä usealle henkilölle",
+      "eg": "Aliurakoitsija, tavarantoimittaja, tiimi tms.",
+      "req_id": "Tarjouspyynnön ID",
+      "date": "Päivämäärä",
+      "due_date": "Tarjouksen voimassaolo",
+      "proposal_summary": "Tarjouksen yhteenveto",
+      "work_total": "Työt yhteensä",
+      "material_total": "Materiaalit yhteensä",
+      "mat_pay": "Materiaalien maksuehdot",
+      "work_pay": "Työn maksuehdot",
+      "project_plan": "Projektisuunnitelma",
+      "work_cost": "Lisää / laske työn kustannukset",
+      "mat_cost": "Lisää / laske materiaalien kustannukset",
+      "proposal_details": "Tarjouksen yksityiskohdat",
+      "guarantees_for_work": "Takuut työlle",
+      "insurance": "Vakuutus",
+      "prop_req_id": "Tarjouspyynnön ID",
+      "message": "Viesti",
+      "Message": "PDF",
+      "action": "Toiminto"
+    },
+    "myagreement": {
+      "agr_upd": "Päivitä keskeneräinen sopimus",
+      "fixed": "Projektihinta",
+      "hourly": "Tuntihinta",
+      "payment_terms": "Maksuehdot",
+      "how_paid": "Haluttu maksutapa:",
+      "by_mile": "Maksuerissä",
+      "by_proj": "Projektina",
+      "mile_text": "Saa maksut pienemmissä maksuerissä toimituksen mukaan.",
+      "mile_que": "Kuinka monta maksuerää haluat?",
+      "add_mile": "Lisää maksuerä",
+      "total_proj": "Projektin kokonaishinta",
+      "total_proj_txt": "Tämä sisältää kaikki maksuerät ja tämän hinnan asiakas näkee",
+      "flip_fee": "Flipkoti palvelumaksu",
+      "chk_terms": "Katso ehdot",
+      "chk_terms_txt": "Sinulle maksetaan",
+      "chk_terms_txt_terms": "Ehdot",
+      "more_terms": "Your estimated payment, after service fees.",
+      "hr_rate": "Sinun tuntihinta",
+      "proj_text": "Vastaanota maksu kokonaisuudessaan, kun työ on toimitettu.",
+      "agreement_terms": "Sopimusehdot",
+      "transportation_payment_terms": "Kuljetusten maksuehdot",
+      "client_resposibilities": "Asiakas vastaa",
+      "contractor_resposibilities": "Urakoitsija vastaa",
+      "legal_agreement_category": "Sopimusehdot (monivalinta)",
+      "agreement_general_legal_issues": "Yleiset sopimusehdot",
+      "materials_quarantees": "Materiaalitakuut",
+      "work_quarantees": "Työn takuut",
+      "agreement_insurances": "Sopimuksen vakuutukset",
+      "panelty_terms": "Sopimussakot",
+      "additional_work_prices": "Lisätyöhinnat",
+      "upload_agreement_files": "Liitä sopimukseen tiedostoja",
+      "legal_txt": "Lisää sopimusehdot tai muut sopimuksen liitetiedostot tästä",
+      "agreement_req_id": "Sopimuksen ID",
+      "attachments": "Liitteet"
+    },
+    "invoice": {
+      "heading": "Omat laskut",
+      "invoice": "Lasku",
+      "create_invoice": "Luo lasku",
+      "invoice_date": "Laskun päiväys",
+      "invoice_number": "Laskun numero",
+      "reference": "Viitenumero",
+      "account_number": "Asiakkaan numero",
+      "delay_interest": "Viivästyskorko %",
+      "bill_to": "Bill to",
+      "service": "Palvelu",
+      "account": "Käyttäjätili",
+      "client": "Asiakas",
+      "currency": "Valuutta",
+      "item": "Nimike",
+      "quantity": "Määrä",
+      "unit": "Yksikkö",
+      "price": "Hinta",
+      "amount": "Summa",
+      "subtotal": "Hinta yhteensä",
+      "total": "Yhteensä",
+      "attach_file": "Liitä tiedosto",
+      "note_to_recipient": "Viesti vastaanottajalle",
+      "terms_and_conditions": "Ehdot"
+    },
+    "bussiness_dashboard": {
+      "heading": "Työkalupakin työpoytä",
+      "proposals": "Tarjoukset",
+      "agreements": "Sopimukset",
+      "projects": "Projektit",
+      "billing": "Laskutus",
+      "resources": "Resurssit",
+      "requests": "Tarjouspyynnöt",
+      "Open": "Avaa",
+      "Old": "Vanha",
+      "Expired": "Vanhentunut"
+    }
+  }
+}

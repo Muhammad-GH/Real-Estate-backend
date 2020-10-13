@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- font icons  CSS -->
+    <link rel="stylesheet" href="css/icomoon.css">
+    <!-- owl carousel -->
+    <!-- custom  CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- jquery ui  CSS -->
+    <link media="all" type="text/css" rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <title>Flipkoti</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./images/logo.png">
+        </div>
+        <nav class="navbar navbar-expand-md">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-down"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My Business <span class="badge badge-danger">2</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Marketplace</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="right-buttons">
+            <div class="dropdown">
+                <a class="dropdown-toggle no-arrow" type="button" id="alert-messages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="icon-bell"></i>
+                    <span class="badge badge-danger"></span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="alert-messages">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="avatar">
+                        <img class="rounded-circle" src="./images/avatar.jpg" alt="">
+                    </div>
+                    <span>Miikka K.</span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">My Account</a>
+                    <a class="dropdown-item" href="#">Logout</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="sidebar-toggle"></div>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Marketplace</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Create Work list</li>
+        </ol>
+    </nav>
+    <div class="main-content">
+        <div class="sidebar">
+            <div class="wraper">
+                <div class="scroll"></div>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="icon-dashboard"></i>Prodesk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="feeds.html"><i class="icon-jobs"></i>Feeds</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="icon-materials"></i>Materials</a>
+                        <ul class="sub-nav">
+                            <li><a href="create-material-list.html">Create listing</a></li>
+                            <li><a href="material-listings.html">See listings</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item active open">
+                        <a class="nav-link" href="#"><i class="icon-work"></i>Work</a>
+                        <ul class="sub-nav">
+                            <li><a href="create-work-list.html">Create listing</a></li>
+                            <li><a href="work-listings.html">See listings</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="icon-jobs"></i>Saved jobs</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="page-content">
+            <div class="container">
+                <h3 class="head3">Create Work list</h3>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label>Type of listing</label>
+                                    <ul class="nav tablist" id="listing-type" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link active" id="type-request-tab" data-toggle="pill" href="#type-request" role="tab" aria-controls="type-request" aria-selected="true">Request</a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link" id="type-offer-tab" data-toggle="pill" href="#type-offer" role="tab" aria-controls="type-offer" aria-selected="false">Offer</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content" id="type-tabContent" style="max-width: 960px;">
+                            <div class="tab-pane fade show active" id="type-request" role="tabpanel" aria-labelledby="type-request">
+                                <div class="row gutters-40">
+                                    <div class="col-md-5 col-lg-4">
+                                        <div class="form-group">
+                                            <label for="title">Title</label>
+                                            <input id="title" type="text" class="form-control" placeholder="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="category">Category</label>
+                                            <select id="category" class="form-control">
+                                                <option>cat1</option>
+                                                <option>cat2</option>
+                                                <option>cat3</option>
+                                            </select>
+                                        </div>
+                                        <div class="row gutters-24">
+                                            <div class="col-8">
+                                                <div class="form-group">
+                                                    <label for="budget">Budget</label>
+                                                    <select id="budget" class="form-control">
+                                                        <option>Fixed, hourly, cost/m2</option>
+                                                        <option>Fixed, hourly, cost/m2</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="form-group">
+                                                    <label for="rate">Rate</label>
+                                                    <input id="rate" type="text" class="form-control" placeholder="100">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row gutters-24">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="wstart">Work start</label>
+                                                    <input id="wstart" type="text" class="form-control" placeholder="date">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="wend">Work end</label>
+                                                    <input id="wend" type="text" class="form-control" placeholder="date">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="city">City</label>
+                                            <select id="city" class="form-control">
+                                                <option>Vantaa</option>
+                                                <option>Vantaa</option>
+                                                <option>Vantaa</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="pincode">Pincode</label>
+                                            <input id="pincode" type="text" class="form-control" placeholder="140603">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="expires">Post expires in</label>
+                                            <input id="expires" type="text" class="form-control" placeholder="Date and time selector">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-lg-8">
+                                        <div class="form-group">
+                                            <label for="Desc">Description</label>
+                                            <textarea id="Desc" class="form-control"></textarea>
+                                        </div>
+                                        <div class="row gutters-24">
+                                            <div class="col-xl-5 col-sm-6">
+                                                <div class="form-group">
+                                                    <label for="main">Main</label>
+                                                    <div class="file-select">
+                                                        <input type="file" id="main">
+                                                        <label for="main">
+                                                            <img src="images/file-icon.png">
+                                                            <span class="status">Upload status</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-5 col-sm-6">
+                                                <div class="form-group">
+                                                    <label for="attachment">Attachment</label>
+                                                    <div class="file-select">
+                                                        <input type="file" id="attachment">
+                                                        <label for="attachment">
+                                                            <img src="images/file-icon.png">
+                                                            <span class="status">Upload status</span>
+                                                        </label>
+                                                        <small class="form-text text-muted">
+                                                            Max 2 mb pdf, doc,
+                                                        </small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Product images</label>
+                                            <div class="row">
+                                                <div class="col-xl-10">
+                                                    <div class="row gutters-14">
+                                                        <div class="col-lg-3 col-sm-4 col-6">
+                                                            <div class="file-select">
+                                                                <input type="file" id="file1">
+                                                                <label for="file1">
+                                                                    <img src="images/file-icon.png">
+                                                                    <span class="status">Upload</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-3 col-sm-4 col-6">
+                                                            <div class="file-select">
+                                                                <input type="file" id="file2">
+                                                                <label for="file2">
+                                                                    <img src="images/file-icon.png">
+                                                                    <span class="status">Upload</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-3 col-sm-4 col-6">
+                                                            <div class="file-select">
+                                                                <input type="file" id="file3">
+                                                                <label for="file3">
+                                                                    <img src="images/file-icon.png">
+                                                                    <span class="status">Upload</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-3 col-sm-4 col-6">
+                                                            <div class="file-select">
+                                                                <input type="file" id="file4">
+                                                                <label for="file4">
+                                                                    <img src="images/file-icon.png">
+                                                                    <span class="status">Upload</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="type-offer" role="tabpanel" aria-labelledby="type-offer">
+                                <div class="row gutters-40">
+                                    <div class="col-md-5 col-lg-4">
+                                        <div class="form-group">
+                                            <label for="title1">Title</label>
+                                            <input id="title1" type="text" class="form-control" placeholder="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="category1">Category</label>
+                                            <select id="category1" class="form-control">
+                                                <option>cat1</option>
+                                                <option>cat2</option>
+                                                <option>cat3</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="budget1">Budget</label>
+                                            <select id="budget1" class="form-control">
+                                                <option>Fixed, hourly, cost/m2</option>
+                                                <option>Fixed, hourly, cost/m2</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="availablity">Availablity</label>
+                                            <div class="row gutters-24">
+                                                <div class="col-6">
+                                                    <input id="availablity" type="text" class="form-control" placeholder="From date">
+                                                </div>
+                                                <div class="col-6">
+                                                    <input type="text" class="form-control" placeholder="To date">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="city1">City</label>
+                                            <select id="city1" class="form-control">
+                                                <option>Vantaa</option>
+                                                <option>Vantaa</option>
+                                                <option>Vantaa</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="pincode1">Pincode</label>
+                                            <input id="pincode1" type="text" class="form-control" placeholder="140603">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="expires1">Post expires in</label>
+                                            <input id="expires1" type="text" class="form-control" placeholder="Date and time selector">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-lg-8">
+                                        <div class="form-group">
+                                            <label for="Desc1">Description</label>
+                                            <textarea id="Desc1" class="form-control"></textarea>
+                                        </div>
+                                        <div class="row gutters-24">
+                                            <div class="col-xl-5 col-sm-6">
+                                                <div class="form-group">
+                                                    <label for="main1">Main</label>
+                                                    <div class="file-select">
+                                                        <input type="file" id="main1">
+                                                        <label for="main1">
+                                                            <img src="images/file-icon.png">
+                                                            <span class="status">Upload status</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-5 col-sm-6">
+                                                <div class="form-group">
+                                                    <label for="attachment1">Attachment</label>
+                                                    <div class="file-select">
+                                                        <input type="file" id="attachment1">
+                                                        <label for="attachment1">
+                                                            <img src="images/file-icon.png">
+                                                            <span class="status">Upload status</span>
+                                                        </label>
+                                                        <small class="form-text text-muted">
+                                                            Max 2 mb pdf, doc,
+                                                        </small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Product images</label>
+                                            <div class="row">
+                                                <div class="col-xl-10">
+                                                    <div class="row gutters-14">
+                                                        <div class="col-lg-3 col-sm-4 col-6">
+                                                            <div class="file-select">
+                                                                <input type="file" id="file5">
+                                                                <label for="file5">
+                                                                    <img src="images/file-icon.png">
+                                                                    <span class="status">Upload</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-3 col-sm-4 col-6">
+                                                            <div class="file-select">
+                                                                <input type="file" id="file6">
+                                                                <label for="file6">
+                                                                    <img src="images/file-icon.png">
+                                                                    <span class="status">Upload</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-3 col-sm-4 col-6">
+                                                            <div class="file-select">
+                                                                <input type="file" id="file7">
+                                                                <label for="file7">
+                                                                    <img src="images/file-icon.png">
+                                                                    <span class="status">Upload</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-3 col-sm-4 col-6">
+                                                            <div class="file-select">
+                                                                <input type="file" id="file8">
+                                                                <label for="file8">
+                                                                    <img src="images/file-icon.png">
+                                                                    <span class="status">Upload</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- custom js file -->
+    <script src="js/custom.js"></script>
+
+    <!-- bootstrap js -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

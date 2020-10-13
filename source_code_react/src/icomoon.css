@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("./fonts/icomoon.eot?6mc3eh");
+  src: url("./fonts/icomoon.eot?6mc3eh#iefix") format("embedded-opentype"),
+    url("./fonts/icomoon.ttf?6mc3eh") format("truetype"),
+    url("./fonts/icomoon.woff?6mc3eh") format("woff"),
+    url("./fonts/icomoon.svg?6mc3eh#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-euro:before {
+  content: "\e900";
+}
+.icon-edit:before {
+  content: "\e901";
+}
+.icon-arrow-top:before {
+  content: "\e902";
+}
+.icon-add:before {
+  content: "\e903";
+}
+.icon-link:before {
+  content: "\e904";
+}
+.icon-attachment:before {
+  content: "\e905";
+}
+.icon-list-view:before {
+  content: "\e906";
+}
+.icon-search:before {
+  content: "\e907";
+}
+.icon-edit-file:before {
+  content: "\e908";
+}
+.icon-fillter:before {
+  content: "\e909";
+}
+.icon-fillter-o:before {
+  content: "\e90a";
+}
+.icon-offce-details:before {
+  content: "\e90b";
+}
+.icon-right:before {
+  content: "\e90c";
+}
+.icon-left:before {
+  content: "\e90d";
+}
+.icon-down:before {
+  content: "\e90e";
+}
+.icon-request:before {
+  content: "\e90f";
+}
+.icon-dashboard:before {
+  content: "\e910";
+}
+.icon-work:before {
+  content: "\e911";
+}
+.icon-materials:before {
+  content: "\e912";
+}
+.icon-jobs:before {
+  content: "\e913";
+}
+.icon-paperclip:before {
+  content: "\e914";
+}
+.icon-dots-three-vertical:before {
+  content: "\e915";
+}
+.icon-dots-three-horizontal:before {
+  content: "\e916";
+}
+.icon-chat:before {
+  content: "\e96d";
+}
+.icon-heart:before {
+  content: "\f004";
+}
+.icon-trash-o:before {
+  content: "\f014";
+}
+.icon-heart-o:before {
+  content: "\f08a";
+}
+.icon-bell-o:before {
+  content: "\f0a2";
+}
+.icon-bell:before {
+  content: "\f0f3";
+}
+.icon-bell-slash:before {
+  content: "\f1f6";
+}
+.icon-bell-slash-o:before {
+  content: "\f1f7";
+}
+.icon-trash:before {
+  content: "\f1f8";
+}
+.icon-calendar:before {
+  content: "\f073";
+}
+.icon-star-empty:before {
+  content: "\e9d7";
+}
+.icon-star-half:before {
+  content: "\e9d8";
+}
+.icon-star-full:before {
+  content: "\e9d9";
+}

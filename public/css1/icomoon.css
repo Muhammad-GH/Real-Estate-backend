@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../../fonts/new/icomoon.eot?vhm8le');
+  src:  url('../../fonts/new/icomoon.eot?vhm8le#iefix') format('embedded-opentype'),
+        url('../../fonts/new/icomoon.ttf?vhm8le') format('truetype'),
+        url('../../fonts/new/icomoon.woff?vhm8le') format('woff'),
+        url('../../fonts/new/icomoon.svg?vhm8le#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home-setting:before {
+  content: "\e900";
+}
+.icon-home-search:before {
+  content: "\e901";
+}
+.icon-vlong-arrow-right:before {
+  content: "\e902";
+}
+.icon-refresh:before {
+  content: "\e903";
+}
+.icon-user-chart:before {
+  content: "\e904";
+}
+.icon-nextline:before {
+  content: "\e905";
+}
+.icon-home-sale-rent:before {
+  content: "\e906";
+}
+.icon-home-groth:before {
+  content: "\e907";
+}
+.icon-Housing-Board:before {
+  content: "\e908";
+}
+.icon-link:before {
+  content: "\e909";
+}
+.icon-contractors:before {
+  content: "\e90a";
+}
+.icon-materials:before {
+  content: "\e90b";
+}
+.icon-list-arrow:before {
+  content: "\e90c";
+}
+.icon-down-arrow:before {
+  content: "\e90d";
+}
+.icon-right-arrow-long:before {
+  content: "\e90e";
+}
+.icon-lovely-home:before {
+  content: "\e90f";
+}
+.icon-edit-file:before {
+  content: "\e910";
+}
+.icon-chart-map:before {
+  content: "\e911";
+}
+.icon-note-home:before {
+  content: "\e912";
+}
+.icon-users-list:before {
+  content: "\e913";
+}
+.icon-materials1:before {
+  content: "\e914";
+}
+.icon-display-cart:before {
+  content: "\e915";
+}
+.icon-sales-price:before {
+  content: "\e916";
+}
+.icon-chart-search:before {
+  content: "\e917";
+}
+.icon-refresh1:before {
+  content: "\e918";
+}
+.icon-hand-chat:before {
+  content: "\e919";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-pinterest:before {
+  content: "\ead1";
+}
+.icon-attachment:before {
+  content: "\e91a";
+}

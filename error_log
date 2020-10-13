@@ -1,0 +1,118 @@
+[18-Oct-2019 20:08:04 UTC] PHP Warning:  Uncaught ErrorException: require(C:\xampp\htdocs\laravel\routes/breadcrumbs.php): failed to open stream: No such file or directory in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php:94
+Stack trace:
+#0 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(C:\\xamp...', '/home2/flipkoti...', 94, Array)
+#1 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): require()
+#2 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(63): DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->registerBreadcrumbs()
+#3 [internal function]: DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->boot()
+#4 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/laravel/fram in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[18-Oct-2019 20:08:04 UTC] PHP Fatal error:  DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider::registerBreadcrumbs(): Failed opening required 'C:\xampp\htdocs\laravel\routes/breadcrumbs.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[18-Oct-2019 20:10:41 UTC] PHP Fatal error:  Out of memory (allocated 796925952) (tried to allocate 4096 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/RuleSetGenerator.php on line 126
+[18-Oct-2019 20:10:53 UTC] PHP Warning:  Uncaught ErrorException: require(C:\xampp\htdocs\laravel\routes/breadcrumbs.php): failed to open stream: No such file or directory in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php:94
+Stack trace:
+#0 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(C:\\xamp...', '/home2/flipkoti...', 94, Array)
+#1 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): require()
+#2 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(63): DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->registerBreadcrumbs()
+#3 [internal function]: DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->boot()
+#4 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/laravel/fram in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[18-Oct-2019 20:10:53 UTC] PHP Fatal error:  DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider::registerBreadcrumbs(): Failed opening required 'C:\xampp\htdocs\laravel\routes/breadcrumbs.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[18-Oct-2019 20:15:10 UTC] PHP Warning:  Uncaught ErrorException: require(C:\xampp\htdocs\laravel\routes/breadcrumbs.php): failed to open stream: No such file or directory in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php:94
+Stack trace:
+#0 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(C:\\xamp...', '/home2/flipkoti...', 94, Array)
+#1 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): require()
+#2 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(63): DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->registerBreadcrumbs()
+#3 [internal function]: DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->boot()
+#4 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/laravel/fram in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[18-Oct-2019 20:15:10 UTC] PHP Fatal error:  DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider::registerBreadcrumbs(): Failed opening required 'C:\xampp\htdocs\laravel\routes/breadcrumbs.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[18-Oct-2019 20:15:14 UTC] PHP Warning:  Uncaught ErrorException: require(C:\xampp\htdocs\laravel\routes/breadcrumbs.php): failed to open stream: No such file or directory in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php:94
+Stack trace:
+#0 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(C:\\xamp...', '/home2/flipkoti...', 94, Array)
+#1 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): require()
+#2 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(63): DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->registerBreadcrumbs()
+#3 [internal function]: DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->boot()
+#4 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/laravel/fram in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[18-Oct-2019 20:15:14 UTC] PHP Fatal error:  DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider::registerBreadcrumbs(): Failed opening required 'C:\xampp\htdocs\laravel\routes/breadcrumbs.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[18-Oct-2019 20:15:40 UTC] PHP Warning:  Uncaught ErrorException: require(C:\xampp\htdocs\laravel\routes/breadcrumbs.php): failed to open stream: No such file or directory in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php:94
+Stack trace:
+#0 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(C:\\xamp...', '/home2/flipkoti...', 94, Array)
+#1 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): require()
+#2 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(63): DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->registerBreadcrumbs()
+#3 [internal function]: DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->boot()
+#4 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/laravel/fram in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[18-Oct-2019 20:15:40 UTC] PHP Fatal error:  DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider::registerBreadcrumbs(): Failed opening required 'C:\xampp\htdocs\laravel\routes/breadcrumbs.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[18-Oct-2019 20:17:59 UTC] PHP Fatal error:  Out of memory (allocated 796925952) (tried to allocate 4096 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/RuleSetGenerator.php on line 126
+[18-Oct-2019 20:19:27 UTC] PHP Warning:  Uncaught ErrorException: require(C:\xampp\htdocs\laravel\routes/breadcrumbs.php): failed to open stream: No such file or directory in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php:94
+Stack trace:
+#0 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(C:\\xamp...', '/home2/flipkoti...', 94, Array)
+#1 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): require()
+#2 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(63): DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->registerBreadcrumbs()
+#3 [internal function]: DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->boot()
+#4 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/laravel/fram in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[18-Oct-2019 20:19:27 UTC] PHP Fatal error:  DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider::registerBreadcrumbs(): Failed opening required 'C:\xampp\htdocs\laravel\routes/breadcrumbs.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[18-Oct-2019 20:19:49 UTC] PHP Warning:  Uncaught ErrorException: require(C:\xampp\htdocs\laravel\routes/breadcrumbs.php): failed to open stream: No such file or directory in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php:94
+Stack trace:
+#0 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(C:\\xamp...', '/home2/flipkoti...', 94, Array)
+#1 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): require()
+#2 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(63): DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->registerBreadcrumbs()
+#3 [internal function]: DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->boot()
+#4 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/laravel/fram in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[18-Oct-2019 20:19:49 UTC] PHP Fatal error:  DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider::registerBreadcrumbs(): Failed opening required 'C:\xampp\htdocs\laravel\routes/breadcrumbs.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[18-Oct-2019 20:21:16 UTC] PHP Warning:  Uncaught ErrorException: require(C:\xampp\htdocs\laravel\routes/breadcrumbs.php): failed to open stream: No such file or directory in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php:94
+Stack trace:
+#0 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(C:\\xamp...', '/home2/flipkoti...', 94, Array)
+#1 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): require()
+#2 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(63): DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->registerBreadcrumbs()
+#3 [internal function]: DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->boot()
+#4 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/laravel/fram in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[18-Oct-2019 20:21:16 UTC] PHP Fatal error:  DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider::registerBreadcrumbs(): Failed opening required 'C:\xampp\htdocs\laravel\routes/breadcrumbs.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[18-Oct-2019 20:21:35 UTC] PHP Warning:  Uncaught ErrorException: require(C:\xampp\htdocs\laravel\routes/breadcrumbs.php): failed to open stream: No such file or directory in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php:94
+Stack trace:
+#0 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(C:\\xamp...', '/home2/flipkoti...', 94, Array)
+#1 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): require()
+#2 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(63): DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->registerBreadcrumbs()
+#3 [internal function]: DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->boot()
+#4 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/laravel/fram in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[18-Oct-2019 20:21:35 UTC] PHP Fatal error:  DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider::registerBreadcrumbs(): Failed opening required 'C:\xampp\htdocs\laravel\routes/breadcrumbs.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[18-Oct-2019 20:24:01 UTC] PHP Fatal error:  Out of memory (allocated 794828800) (tried to allocate 266240 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/Pool.php on line 205
+[18-Oct-2019 20:27:40 UTC] PHP Fatal error:  Out of memory (allocated 794828800) (tried to allocate 266240 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/Pool.php on line 205
+[18-Oct-2019 20:42:23 UTC] PHP Warning:  Uncaught ErrorException: require(C:\xampp\htdocs\laravel\routes/breadcrumbs.php): failed to open stream: No such file or directory in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php:94
+Stack trace:
+#0 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(C:\\xamp...', '/home2/flipkoti...', 94, Array)
+#1 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): require()
+#2 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(63): DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->registerBreadcrumbs()
+#3 [internal function]: DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->boot()
+#4 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/laravel/fram in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[18-Oct-2019 20:42:23 UTC] PHP Fatal error:  DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider::registerBreadcrumbs(): Failed opening required 'C:\xampp\htdocs\laravel\routes/breadcrumbs.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[18-Oct-2019 20:45:05 UTC] PHP Warning:  Uncaught ErrorException: require(C:\xampp\htdocs\laravel\routes/breadcrumbs.php): failed to open stream: No such file or directory in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php:94
+Stack trace:
+#0 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(C:\\xamp...', '/home2/flipkoti...', 94, Array)
+#1 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): require()
+#2 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(63): DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->registerBreadcrumbs()
+#3 [internal function]: DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->boot()
+#4 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/laravel/fram in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[18-Oct-2019 20:45:05 UTC] PHP Fatal error:  DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider::registerBreadcrumbs(): Failed opening required 'C:\xampp\htdocs\laravel\routes/breadcrumbs.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[18-Oct-2019 20:46:19 UTC] PHP Fatal error:  Out of memory (allocated 794828800) (tried to allocate 266240 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/Pool.php on line 205
+[18-Oct-2019 20:48:04 UTC] PHP Warning:  Uncaught ErrorException: require(C:\xampp\htdocs\laravel\routes/breadcrumbs.php): failed to open stream: No such file or directory in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php:94
+Stack trace:
+#0 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(C:\\xamp...', '/home2/flipkoti...', 94, Array)
+#1 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): require()
+#2 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(63): DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->registerBreadcrumbs()
+#3 [internal function]: DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->boot()
+#4 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/laravel/fram in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[18-Oct-2019 20:48:04 UTC] PHP Fatal error:  DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider::registerBreadcrumbs(): Failed opening required 'C:\xampp\htdocs\laravel\routes/breadcrumbs.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[18-Oct-2019 20:48:42 UTC] PHP Fatal error:  Out of memory (allocated 794828800) (tried to allocate 266240 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/Pool.php on line 221
+[18-Oct-2019 21:19:44 UTC] PHP Warning:  Uncaught ErrorException: require(C:\xampp\htdocs\laravel\routes/breadcrumbs.php): failed to open stream: No such file or directory in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php:94
+Stack trace:
+#0 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(C:\\xamp...', '/home2/flipkoti...', 94, Array)
+#1 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): require()
+#2 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(63): DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->registerBreadcrumbs()
+#3 [internal function]: DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->boot()
+#4 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/laravel/fram in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[18-Oct-2019 21:19:44 UTC] PHP Fatal error:  DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider::registerBreadcrumbs(): Failed opening required 'C:\xampp\htdocs\laravel\routes/breadcrumbs.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[21-Oct-2019 03:35:43 UTC] PHP Warning:  Uncaught ErrorException: require(C:\xampp\htdocs\laravel\routes/breadcrumbs.php): failed to open stream: No such file or directory in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php:94
+Stack trace:
+#0 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(C:\\xamp...', '/home2/flipkoti...', 94, Array)
+#1 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(94): require()
+#2 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php(63): DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->registerBreadcrumbs()
+#3 [internal function]: DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider->boot()
+#4 /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/laravel/fram in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94
+[21-Oct-2019 03:35:43 UTC] PHP Fatal error:  DaveJamesMiller\Breadcrumbs\BreadcrumbsServiceProvider::registerBreadcrumbs(): Failed opening required 'C:\xampp\htdocs\laravel\routes/breadcrumbs.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/flipkoti/public_html/dev.flipkoti.fi/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php on line 94

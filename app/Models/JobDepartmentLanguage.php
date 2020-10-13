@@ -1,0 +1,1 @@
+<?phpnamespace App\Models;use Illuminate\Database\Eloquent\Model;class JobDepartmentLanguage extends Model{    public $table = "department_language";    protected $primaryKey = 'department_id';    public function Jobs()    {        return $this->hasMany('App\Models\Jobs' , 'departmentId', 'parent_id');    }}

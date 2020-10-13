@@ -1,0 +1,12 @@
+WorkName,Name,Basic,Exclusive,Area_allocation (if multiple use + to seprate),Item-type (0=normal/1=Other Material),Cost-type (0=one time / 1=per m2)
+,"Panels wall, roof",25,60,Wall,0,1
+,Tiles floor,15,40,Floor,0,1
+,Waterproof,20,20,Floor+Wall,0,1
+,Coverings(tasoite),10,10,Floor+Wall,0,1
+,Primer,5,5,Floor+Wall,0,1
+,Kiuas,300,500,no caculation on one time cost,0,0
+,Fix filler,5,5,Floor+Wall,0,1
+,Chair/jakkara,100,200,no caculation on one time cost,0,0
+,Lights,50,40,no caculation on one time cost,0,0
+,Top of drain,20,300,no caculation on one time cost,1,0
+,Lasiseinä ,100,1000,no caculation on one time cost,1,0

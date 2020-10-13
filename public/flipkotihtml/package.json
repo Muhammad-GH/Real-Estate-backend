@@ -1,0 +1,22 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-if": "^2.0.0",
+    "gulp-cssnano": "^2.1.0",
+    "run-sequence": "^1.1.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.5"
+  },
+  "dependencies": {
+    "gulp-cssnano": "^2.1.3"
+  }
+}

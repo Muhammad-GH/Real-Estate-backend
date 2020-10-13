@@ -1,0 +1,144 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?yroqkt');
+  src:  url('../fonts/icomoon.eot?yroqkt#iefix') format('embedded-opentype'),
+  url('../fonts/icomoon.ttf?yroqkt') format('truetype'),
+  url('../fonts/icomoon.woff?yroqkt') format('woff'),
+  url('../fonts/icomoon.svg?yroqkt#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sale-rent2:before {
+  content: "\e900";
+}
+.icon-user-chart2:before {
+  content: "\e901";
+}
+.icon-refresh2:before {
+  content: "\e902";
+}
+.icon-file-edit:before {
+  content: "\e903";
+}
+.icon-home-setting:before {
+  content: "\e904";
+}
+.icon-home-search:before {
+  content: "\e905";
+}
+.icon-vlong-arrow-right:before {
+  content: "\e906";
+}
+.icon-refresh:before {
+  content: "\e907";
+}
+.icon-user-chart:before {
+  content: "\e908";
+}
+.icon-nextline:before {
+  content: "\e909";
+}
+.icon-home-sale-rent:before {
+  content: "\e90a";
+}
+.icon-home-groth:before {
+  content: "\e90b";
+}
+.icon-Housing-Board:before {
+  content: "\e90c";
+}
+.icon-link:before {
+  content: "\e90d";
+}
+.icon-contractors:before {
+  content: "\e90e";
+}
+.icon-materials:before {
+  content: "\e90f";
+}
+.icon-list-arrow:before {
+  content: "\e910";
+}
+.icon-down-arrow:before {
+  content: "\e911";
+}
+.icon-right-arrow-long:before {
+  content: "\e912";
+}
+.icon-lovely-home:before {
+  content: "\e913";
+}
+.icon-edit-file:before {
+  content: "\e914";
+}
+.icon-chart-map:before {
+  content: "\e915";
+}
+.icon-note-home:before {
+  content: "\e916";
+}
+.icon-users-list:before {
+  content: "\e917";
+}
+.icon-materials1:before {
+  content: "\e918";
+}
+.icon-display-cart:before {
+  content: "\e919";
+}
+.icon-sales-price:before {
+  content: "\e91a";
+}
+.icon-chart-search:before {
+  content: "\e91b";
+}
+.icon-refresh1:before {
+  content: "\e91c";
+}
+.icon-hand-chat:before {
+  content: "\e91d";
+}
+.icon-attachment:before {
+  content: "\e91e";
+}
+.icon-google-plus:before {
+  content: "\e91f";
+}
+.icon-linkedin:before {
+  content: "\e920";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-pinterest:before {
+  content: "\ead1";
+}
+.icon-envelope:before {
+  content: "\f003";
+}
+.icon-phone:before {
+  content: "\f095";
+}

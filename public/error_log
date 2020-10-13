@@ -1,0 +1,3 @@
+[28-Apr-2020 22:55:10 UTC] PHP Fatal error:  Allowed memory size of 367001600 bytes exhausted (tried to allocate 197136384 bytes) in /home2/flipkoti/public_html/test.flipkoti.fi/routes/breadcrumbs/backend/backend.php on line 188
+[28-Apr-2020 22:58:00 UTC] PHP Fatal error:  Allowed memory size of 367001600 bytes exhausted (tried to allocate 197136384 bytes) in /home2/flipkoti/public_html/test.flipkoti.fi/routes/breadcrumbs/backend/backend.php on line 188
+[28-Apr-2020 22:59:22 UTC] PHP Fatal error:  Allowed memory size of 367001600 bytes exhausted (tried to allocate 197136384 bytes) in /home2/flipkoti/public_html/test.flipkoti.fi/routes/breadcrumbs/backend/backend.php on line 188
